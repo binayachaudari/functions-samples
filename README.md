@@ -58,6 +58,10 @@ This quickstart sample demonstrates using **Cloud Functions** triggered by **Pub
 
 This quickstart sample demonstrates using **Cloud Functions** triggered by **Crashlytics**. The functions send an email when there is a new issue in an important conversion flow.
 
+### [Test Lab trigger quickstart: Log when a matrix completes](/quickstarts/test-complete)
+
+This quickstart demonstrates how to trigger a function in response to the
+completion of a test matrix in **Firebase Test Lab**.
 
 <a name="environment"></a>
 ## Development Environment Samples and Boilerplates
@@ -84,7 +88,7 @@ This sample demonstrates how to create an isomorphic React application with serv
 <a name="image"></a>
 ## Image Processing
 
-Here is a few sample that shows how you can process or analyze images using Cloud Functions.
+Here are a few samples that show how you can process or analyze images using Cloud Functions.
 
 ### [Image Maker](/image-maker)
 This sample demonstrates how to create various customized images such as sparkline or sphere charts through Cloud Functions and Hosting and serve it to the client.
@@ -268,6 +272,9 @@ Uses a Crashlytics trigger.
 Automatically sends a Slack notification to a specific Slack channel when a new issue is reported in Crashlytics.
 Uses a Crashlytics trigger.
 
+### [Publish Models to Firebase ML](/publish-model)
+
+Automatically publishes models to Firebase ML for each TensorFlow Lite file that is uploaded to Firebase Storage.
 
 ## Contributing
 
